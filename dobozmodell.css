@@ -1,0 +1,102 @@
+body{
+    background-color: hsl(0, 0%, 90%);
+    text-align: center;
+}
+
+header{
+    border: 2px solid black;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+header div{
+    border: 2px solid red;
+}
+
+#balnégyzet{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    padding: 15px;
+}
+
+#balnégyzet div{
+    border: 2px solid red;
+    height: 300px;
+    float: left;
+}
+
+#jobbnégyzet{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    padding: 15px;
+    float: right;
+}
+
+#jobbnégyzet div{
+    border: 2px solid red;
+    height: 300px;
+}
+
+#négyzetcontainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+#hosszú{
+    border: 2px solid black;
+    height: 100px;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+#hosszú div{
+    border: 2px solid red;
+    height: 100px;
+    width: 400px;
+    margin: auto;
+}
+
+#baltéglalap{
+    border: 2px solid black;
+    width: 300px;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+#baltéglalap div{
+    border: 2px solid red;
+}
+
+#jobbtéglalap{
+    border: 2px solid black;
+    width: 500px;
+    float: right;
+    padding: 15px;
+    margin-top: 5px;
+}
+
+#jobbtéglalap div{
+    border: 2px solid red;
+}
+
+#téglalapcontainer{
+    height: 250px;
+}
+
+footer{
+    margin-top: 15px;
+    height: 60px;
+    border: 2px solid black;
+    padding: 10px;
+    position: relative;
+}
+
+footer div{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    border: 2px solid red;
+}
